@@ -89,9 +89,13 @@ nav {
 }
 
 .btn-menu{
+    border: none;
+}
+
+.btn-menu img{
     display: none;
-    width: 60px;
-    height: 60px;
+    width: 38px;
+    height: 30px;
 }
 
 .header-left-content {
@@ -474,11 +478,23 @@ footer{
     html{
         font-size: 15px;
     }
-    .section__content{
-        width: 688px;
+}
+
+@media screen and (max-width: 1124px) {
+    nav{
+        display: none;
+    }
+    header .header-right-content{
+        display: none;
+    }
+    header .btn-menu img{
+        display: flex;
     }
     .card-review-container{
         flex-direction: column;
+    }
+    .section__content {
+        padding: 160px;
     }
 }
 
@@ -489,18 +505,8 @@ footer{
     .section__content{
         width: 80vw;
     }
-
     .section{
         padding: 0px 16px;
     }
-}
 
-header .header-left-content nav{
-    display: none;
-}
-header .header-right-content nav{
-    display: none;
-}
-header .btn-menu{
-    display: flex;
 }
