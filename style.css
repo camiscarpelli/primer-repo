@@ -161,7 +161,6 @@ nav {
     display: flex;
     padding-left: 40px;
     padding-right: 40px;
-    width: 1174px;
 }
 
 .hero-left-content {
@@ -474,12 +473,6 @@ footer{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 1270px) {
-    html{
-        font-size: 15px;
-    }
-}
-
 @media screen and (max-width: 1124px) {
     nav{
         display: none;
@@ -492,9 +485,6 @@ footer{
     }
     .card-review-container{
         flex-direction: column;
-    }
-    .section__content {
-        padding: 160px;
     }
 }
 
