@@ -474,17 +474,33 @@ footer{
 }
 
 @media screen and (max-width: 1124px) {
+    html{
+        font-size: 16px;
+    }
+    header{
+        height: 60px;
+    }
     nav{
         display: none;
     }
     header .header-right-content{
         display: none;
     }
+    body .section-hero__img{
+        width: 55vw;
+    }
+    body .hero-left-content{
+        padding-left: 0;
+    }
     header .btn-menu img{
         display: flex;
     }
-    .card-review-container{
-        flex-direction: column;
+    section .section__content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    footer .section-footer{
+        width: 90vw;
     }
 }
 
@@ -496,7 +512,10 @@ footer{
         width: 80vw;
     }
     .section{
-        padding: 0px 16px;
+        padding: 0px;
+    }
+    .card-review-container{
+        flex-direction: column;
     }
 
 }
