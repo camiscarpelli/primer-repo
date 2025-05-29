@@ -472,6 +472,18 @@ footer{
     margin-top: 20px;
 }
 
+@media screen and (max-width: 2000px){
+    body .section-hero{
+        flex-direction: row;
+        width: 100vw;
+    }
+    body .section-hero__img{
+        padding-bottom: 10vw;
+        width: 45vw;
+        transform: translateY(-100%);
+    }
+}
+
 @media screen and (max-width: 1124px) {
     html{
         font-size: 16px;
