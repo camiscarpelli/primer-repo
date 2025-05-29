@@ -158,7 +158,6 @@ nav {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-    display: flex;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -508,11 +507,55 @@ footer{
     html{
         font-size: 14px;
     }
-    .section__content{
-        width: 80vw;
+    body .section-hero{
+        flex-direction: row;
+        width: 100vw;
+        padding: 0;
     }
-    .section{
-        padding: 0px;
+    body .hero-content{
+        flex-direction: column;
+        width: 100vw;
+        padding-bottom: 600px;
+        padding-left: 0px;
+        padding-right: 15%;
+        display: flex;
+        gap: 0%;
+    }
+    .hero-price{
+        margin: 0px;
+    }
+    .hero-content p{
+        font-size: 16px;
+    }
+    .hero-btn a{
+        font-size: 16px;
+    }
+    .hero-left-content h1 {
+        margin-top: 40px;
+        font-size: 28px;
+        padding-left: 0px;
+        padding-right: 10px;
+        flex-direction: column;
+        justify-content: right;
+    }
+    body .section-hero__img{
+        width: 100vw;
+        transform: translateX(-0%);
+        padding-top: 180px;
+        margin-top: 24px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .section__content{
+        width: 100vw;
+        padding: 0;
+    }
+    .section__content h2{
+        margin-top: 40px;
+        font-size: 28px;
+    }
+        .section__content p{
+        font-size: 16px;
     }
     .card-review-container{
         flex-direction: column;
